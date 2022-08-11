@@ -63,6 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\battlescript.cs" />
+    <Compile Include="Assets\levels.cs" />
+    <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\script.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/matve/SuperMegagameee/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

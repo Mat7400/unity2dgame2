@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class script : MonoBehaviour
 {
@@ -15,10 +16,12 @@ public class script : MonoBehaviour
     {
         
     }
+    string CurrentScene = "path1lvl1";
     public void CLick00()
     {
         string mess = "level 0";
-        throw new UnityException("clicked 00" + mess);
+        SceneManager.LoadScene(CurrentScene);
+        //throw new UnityException("clicked 00" + mess);
     }
     public void CLick01()
     {
